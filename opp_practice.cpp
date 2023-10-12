@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-class Person //Class Hero Created
+class Person //Class Person Created
 {
     public:  //Access Modifier
     int age; //properties or data members
@@ -11,7 +11,7 @@ class Person //Class Hero Created
 };
 
 int main()
-{
+{ 
 
     Person ramesh; //Creation Of Object
     cout<<"Enter Age of Ramesh ";
