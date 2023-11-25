@@ -1,0 +1,145 @@
+Object Oriented Programming
+List of Programs
+
+Object Oriented Programming
+List of Programs
+1) Define a class to represent a bank account. Include the following members:
+Data members: 1. Name of the depositor. 2. Account number. 3. Type of account. 4.
+Balance amount in the account.
+Member functions: 1. To assign initial values. 2. To deposit an amount. 3. To withdraw an
+amount after checking the balance. 4. To display the name and balance.
+Write a main program to test the program.
+2) Create two classes DM and DB which store the value of distances. DM stores distances in
+meters and centimeters and DB in feet and inches. Write a program that can read values
+for the class objects and add one object of DM with another object of DB. Use a friend
+function to carry out the addition operation. The object that stores the results may be a
+DM object or DB object, depending on the units in which the results are required. The
+display should be in the format of feet and inches or meters and centimeters depending on
+the object on display.
+3) A book shop maintains the inventory of books that are being sold at the shop. The list
+includes details such as author, title, price, publisher and stock position. Whenever a
+customer wants a book, the sales person inputs the title and author and the system
+searches the list and displays whether it is available or not. If it is not, an appropriate
+message is displayed. If it is, then the system displays the book details and requests for
+the number of copies required. If the requested copies are available, the total cost of the
+requested copies is displayed; otherwise “Required copies not in stock” is displayed.
+Design a system using a class called books with suitable member functions and
+constructors.
+4) Crate a class FLOAT that contains one float data member. Overload all the four
+arithmetic operators so that they operate on the objects of FLOAT.
+5) Assume that a bank maintains two kinds of accounts for customers, one called as savings
+and the other as current account. The savings account provides compound interest and
+withdrawal facilities but no cheque book facility. The current account provides cheque
+book facility but no interest. Current account holders should also maintain a minimum
+balance and if the balance falls below this level a service charge is imposed. Create a
+class account that stores customer name, account number and type of account. From this
+derive the classes cur_acct and sav_acct to make them more specific to their
+requirements. Include necessary member functions in order to achieve the following
+tasks:
+(a) Accept the deposit from a customer and update the balance.
+(b) Display the balance.
+(c) Compute and deposit interest.
+(d) Permit withdrawal and update the balance.
+(e) Check for the minimum balance, impose penalty, necessary and update the balance.\
+6) An educational institution wishes to maintain a database of its employees. The database is
+divided into a number of classes whose hierarchical relationships are shown in following
+figure. The figure also shows the minimum information required for each class. Specify
+all classes and define functions to create the database and retrieve individual information
+as and when required.
+7) Consider a class network of the following figure. The class master derives information
+from both account and admin classes which in turn derives information from the class
+person. Define all the four classes and write a program to create, update and display the
+information contained in master objects.
+8) Create a base class called shape. Use this class to store two double type values that
+could be used to compute the area of figures. Derive two specific classes called triangle and
+rectangle from the base shape. Add to the base class, a member function get_data() to
+initialize base class data members and another member function display_area() to compute
+and display the area of figures. Make display_area() as a virtual function and redefine this
+function in the derived classes to suit their requirements.
+9) Write a program to read a list containing item name, item code, and cost interactively
+and produce a three column output as shown below.
+Name Code Cost
+------------------------------------------------------
+Turbo C++ 1001 250.95
+C primer 905 95.70
+10) Write a program that reads a text file and creates another file that is identical except
+that every sequence of consecutive blank spaces is replaced by a single space.
+11) Write a function template for finding the minimum value contained in an array.
+12) Write a class template to represent a generic vector. Include member functions to
+perform the following tasks:
+(a) To create the vector
+(b) To modify the value of a given element
+(c) To multiply by a scalar value
+(d) To display the vector in the following form (10, 20, 30 …)
+
+2) Create two classes DM and DB which store the value of distances. DM stores distances in
+meters and centimeters and DB in feet and inches. Write a program that can read values
+for the class objects and add one object of DM with another object of DB. Use a friend
+function to carry out the addition operation. The object that stores the results may be a
+DM object or DB object, depending on the units in which the results are required. The
+display should be in the format of feet and inches or meters and centimeters depending on
+the object on display.
+
+3) A book shop maintains the inventory of books that are being sold at the shop. The list
+includes details such as author, title, price, publisher and stock position. Whenever a
+customer wants a book, the sales person inputs the title and author and the system
+searches the list and displays whether it is available or not. If it is not, an appropriate
+message is displayed. If it is, then the system displays the book details and requests for
+the number of copies required. If the requested copies are available, the total cost of the
+requested copies is displayed; otherwise “Required copies not in stock” is displayed.
+Design a system using a class called books with suitable member functions and
+constructors.
+
+4) Crate a class FLOAT that contains one float data member. Overload all the four
+arithmetic operators so that they operate on the objects of FLOAT.
+
+5) Assume that a bank maintains two kinds of accounts for customers, one called as savings
+and the other as current account. The savings account provides compound interest and
+withdrawal facilities but no cheque book facility. The current account provides cheque
+book facility but no interest. Current account holders should also maintain a minimum
+balance and if the balance falls below this level a service charge is imposed. Create a
+class account that stores customer name, account number and type of account. From this
+derive the classes cur_acct and sav_acct to make them more specific to their
+requirements. Include necessary member functions in order to achieve the following
+tasks:
+(a) Accept the deposit from a customer and update the balance.
+(b) Display the balance.
+(c) Compute and deposit interest.
+(d) Permit withdrawal and update the balance.
+(e) Check for the minimum balance, impose penalty, necessary and update the balance.\
+
+6) An educational institution wishes to maintain a database of its employees. The database is
+divided into a number of classes whose hierarchical relationships are shown in following
+figure. The figure also shows the minimum information required for each class. Specify
+all classes and define functions to create the database and retrieve individual information
+as and when required.
+
+7) Consider a class network of the following figure. The class master derives information
+from both account and admin classes which in turn derives information from the class
+person. Define all the four classes and write a program to create, update and display the
+information contained in master objects.
+
+8) Create a base class called shape. Use this class to store two double type values that
+could be used to compute the area of figures. Derive two specific classes called triangle and
+rectangle from the base shape. Add to the base class, a member function get_data() to
+initialize base class data members and another member function display_area() to compute
+and display the area of figures. Make display_area() as a virtual function and redefine this
+function in the derived classes to suit their requirements.
+
+9) Write a program to read a list containing item name, item code, and cost interactively
+and produce a three column output as shown below.
+Name Code Cost
+------------------------------------------------------
+Turbo C++ 1001 250.95
+C primer 905 95.70
+10) Write a program that reads a text file and creates another file that is identical except
+that every sequence of consecutive blank spaces is replaced by a single space.
+
+11) Write a function template for finding the minimum value contained in an array.
+
+12) Write a class template to represent a generic vector. Include member functions to
+perform the following tasks:
+(a) To create the vector
+(b) To modify the value of a given element
+(c) To multiply by a scalar value
+(d) To display the vector in the following form (10, 20, 30 …)

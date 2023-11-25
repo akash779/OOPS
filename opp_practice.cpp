@@ -1,21 +1,23 @@
-//OOP
-#include<iostream>
+#include <iostream>
+#include <conio.h>
+
 using namespace std;
 
-class Person //Class Hero Created
-{
-    public:  //Access Modifier
-    int age; //properties or data members
+void clearScreen() {
+    system("cls");
+}
 
+int main() {
+    cout << "Press Enter to clear the screen." << endl;
 
-};
+    while (true) {
+        char key = cin.get();
+        if (key == '\n') { // Check if Enter was pressed
+            clearScreen();
+            cout << "Screen cleared!" << endl;
+            break;
+        }
+    }
 
-int main()
-{
-
-    Person ramesh; //Creation Of Object
-    cout<<"Enter Age of Ramesh ";
-    cin>>ramesh.age; // By Using . (dot) One Can Access Data Members of OBJECT RAMESH WHICH IS OF CLASS PERSON  
-    cout<<"Ramesh Age if: "<<ramesh.age; 
     return 0;
 }
